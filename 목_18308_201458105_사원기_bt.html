@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" id="page1" data-title="첫번째 페이지">
+		<div data-role="header">
+			<a href="#page2" class="ui-btn-right">페이지2</a>
+			<h1>페이지 1</h1>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" data-inset="true">
+				<li data-role="listdivider">웡기의 롤창 인생</li>
+				<li><a href="#page2">웡기의 티어와 포지션은?</a></li>
+				<li><a href="#page3">웡기의 주챔프</a></li>
+				<li><a href="#page4">웡기의 최근전적</a></li>
+				<li><a href="#page5">요즘 대세 정글챔프 </a></li>
+				<li><a href="#page6">정글챔프 화려한 기술 </a></li>
+				
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			    <a href="#page1">페이지1</a>
+				<a href="#page2">페이지2</a>
+				<a href="#page3">페이지3</a>
+				<a href="#page4">페이지4</a>
+				<a href="#page5">페이지5</a>
+				<a href="#page6">페이지6</a>				
+		</div>
+	</div>
+	<div data-role="page" id="page2" data-title="두번째 페이지">
+		<div data-role="header" data-add-back-btn="true">
+			<h1>페이지 2</h1>
+			<a href="#page3" data-icon="home" class="ui-btn-right">페이지2</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview">
+				<li data-role="list-divider">삿상네 강타
+					 <p class="ui-li-aside">2019/05/09</p>
+				</li>
+				<li>
+					<a href="#">
+						<img src="크기변환_imgg1.PNG">
+						<h3>삿상네 강타</h3>
+						<p>티어: 다이아4</p>
+						<p>포지션: 정글러</p>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+		<div data-role="footer" class="ui-bar" data-position="fixed">
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#page1">페이지1</a>
+				<a href="#page2">페이지2</a>
+				<a href="#page3">페이지3</a>
+				<a href="#page4">페이지4</a>
+				<a href="#page5">페이지5</a>
+				<a href="#page6">페이지6</a>
+								
+			</div>	
+		</div>
+	</div>
+	<div data-role="page" id="page3" data-title="세번째 페이지">
+		<div data-role="header" data-add-back-btn="true">
+			<h1>페이지 3</h1>
+			<a href="#page4" data-icon="home" class="ui-btn-right">홈</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview">
+				<li data-role="list-divider">주챔프
+					 <p class="ui-li-aside">2019/05/09</p>
+				</li>	
+				<li>
+					<a href="#">
+						<img src="크기변환_킨드레드.PNG"> 
+						<h3>킨드레드</h3>		
+						
+						
+					</a>					
+				</li>
+				<li>
+					<a href="#">
+						<img class="ui-li-icon" src="listicon2.png">
+						<h3>6PM</h3>		
+						<span class="ui-li-count">10</span>
+					</a>					
+				</li>				
+			</ul>		
+		</div>
+		
+		
+		<div data-role="footer" class="ui-bar" data-position="fixed">
+			<div data-role="controlgroup" data-type="horizontal">
+			<a href="#page1">페이지1</a>
+				<a href="#page2">페이지2</a>
+				<a href="#page3">페이지3</a>
+				<a href="#page4">페이지4</a>
+				<a href="#page5">페이지5</a>
+				<a href="#page6">페이지6</a>						
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="page5" data-title="세번째 페이지">
+		<div data-role="header" data-add-back-btn="true">
+			<h1>페이지 5</h1>
+			<a href="#page5" data-icon="home" class="ui-btn-right">홈</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview">
+				<li data-role="list-divider">주챔프
+					 <p class="ui-li-aside">2019/05/09</p>
+				</li>	
+				<li>
+					<a href="#">
+						<img src="크기변환_킨드레드.PNG"> 
+						<h3>킨드레드</h3>		
+						
+						
+					</a>					
+				</li>
+				<li>
+					<a href="#">
+						<img class="ui-li-icon" src="listicon2.png">
+						<h3>6PM</h3>		
+						<span class="ui-li-count">10</span>
+					</a>					
+				</li>				
+			</ul>		
+		</div>
+	<div data-role="footer" class="ui-bar" data-position="fixed">
+			<div data-role="controlgroup" data-type="horizontal">
+			<a href="#page1">페이지1</a>
+				<a href="#page2">페이지2</a>
+				<a href="#page3">페이지3</a>
+				<a href="#page4">페이지4</a>
+				<a href="#page5">페이지5</a>
+				<a href="#page6">페이지6</a>						
+			</div>
+		</div>
+	</div>
+			
+			<div data-role="page" id="page4" data-title="세번째 페이지">
+		<div data-role="header" data-add-back-btn="true">
+			<h1>페이지 4</h1>
+			<a href="#page5" data-icon="home" class="ui-btn-right">홈</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview">
+				<li data-role="list-divider">주챔프
+					 <p class="ui-li-aside">2019/05/09</p>
+				</li>	
+				<li>
+					<a href="#">
+						<img src="크기변환_킨드레드.PNG"> 
+						<h3>킨드레드</h3>		
+						
+						
+					</a>					
+				</li>
+				<li>
+					<a href="#">
+						<img class="ui-li-icon" src="listicon2.png">
+						<h3>6PM</h3>		
+						<span class="ui-li-count">10</span>
+					</a>					
+				</li>				
+			</ul>		
+		</div>
+	<div data-role="footer" class="ui-bar" data-position="fixed">
+			<div data-role="controlgroup" data-type="horizontal">
+			<a href="#page1">페이지1</a>
+				<a href="#page2">페이지2</a>
+				<a href="#page3">페이지3</a>
+				<a href="#page4">페이지4</a>
+				<a href="#page5">페이지5</a>
+				<a href="#page6">페이지6</a>						
+			</div>
+		</div>
+	</div>	
+	
+	<div data-role="page" id="page6" data-title="세번째 페이지">
+		<div data-role="header" data-add-back-btn="true">
+			<h1>페이지 6</h1>
+			<a href="#page6" data-icon="home" class="ui-btn-right">홈</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview">
+				<li data-role="list-divider">주챔프
+					 <p class="ui-li-aside">2019/05/09</p>
+				</li>	
+				<li>
+					<a href="#">
+						<img src="크기변환_킨드레드.PNG"> 
+						<h3>킨드레드</h3>		
+						
+						
+					</a>					
+				</li>
+				<li>
+					<a href="#">
+						<img class="ui-li-icon" src="listicon2.png">
+						<h3>6PM</h3>		
+						<span class="ui-li-count">10</span>
+					</a>					
+				</li>				
+			</ul>		
+		</div>
+	<div data-role="footer" class="ui-bar" data-position="fixed">
+			<div data-role="controlgroup" data-type="horizontal">
+			<a href="#page1">페이지1</a>
+				<a href="#page2">페이지2</a>
+				<a href="#page3">페이지3</a>
+				<a href="#page4">페이지4</a>
+				<a href="#page5">페이지5</a>
+				<a href="#page6">페이지6</a>						
+			</div>
+		</div>
+	</div>
+</body>
+</html>
